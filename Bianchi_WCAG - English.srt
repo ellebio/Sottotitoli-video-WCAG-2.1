@@ -1,0 +1,306 @@
+1
+00:00:00,000 --> 00:00:00,000
+Today we'll talk about status messages in the WCAG 2.1 guidelines.
+
+2
+00:00:07,050 --> 00:00:09,500
+Let's start with describing status messages:
+
+3
+00:00:09,550 --> 00:00:15,100
+status messages are changes,either visible or invisible,
+of the webpage
+
+4
+00:00:15,140 --> 00:00:17,750
+that give the user information
+
+5
+00:00:17,790 --> 00:00:24,480
+regarding the success or the status of an operation,
+or of an information,
+
+6
+00:00:24,520 --> 00:00:27,000
+that the user benefits of.
+
+7
+00:00:27,040 --> 00:00:31,040
+A user who is able to see, is advantaged visually
+
+8
+00:00:31,080 --> 00:00:33,790
+because they understand at which point the operation is,
+
+9
+00:00:33,860 --> 00:00:36,720
+for example in a status bar, like this one,
+
+10
+00:00:37,500 --> 00:00:40,000
+or when they're filling a form
+
+11
+00:00:40,000 --> 00:00:43,000
+and a wrong information is input
+
+12
+00:00:43,250 --> 00:00:47,000
+the user will see there's been a mistake.
+
+13
+00:00:47,000 --> 00:00:49,000
+In case of blind users, instead,
+
+14
+00:00:49,000 --> 00:00:50,950
+status messages are invisible.
+
+15
+00:00:51,211 --> 00:00:54,503
+So back end solutions must be found.
+
+16
+00:00:54,503 --> 00:00:59,139
+For this purpose, in the <div>s, roles have been assigned.
+
+17
+00:00:59,139 --> 00:01:03,683
+Beginning with the first one, role="status", indicates that
+
+18
+00:01:03,683 --> 00:01:06,296
+a determined code part
+
+19
+00:01:06,296 --> 00:01:11,494
+is simply used to give updates about the program status,
+
+20
+00:01:11,494 --> 00:01:14,214
+for example a message, that could say:
+
+21
+00:01:14,214 --> 00:01:17,268
+"operation completed successfully",
+
+22
+00:01:17,268 --> 00:01:19,237
+or, "23 results found",
+
+23
+00:01:19,237 --> 00:01:22,425
+is defined with the "status" role.
+
+24
+00:01:22,425 --> 00:01:26,100
+The role="alert", which literally
+
+25
+00:01:26,100 --> 00:01:28,800
+goes for "advise", or "error",
+
+26
+00:01:28,800 --> 00:01:31,708
+is used in case there is an error
+
+27
+00:01:31,708 --> 00:01:35,780
+in the execution of an operation in the web application.
+
+28
+00:01:35,780 --> 00:01:37,935
+And, in the last case,
+
+29
+00:01:37,935 --> 00:01:39,282
+the progress bar.
+
+30
+00:01:39,282 --> 00:01:41,433
+The progress bar, or advance bar,
+
+31
+00:01:41,433 --> 00:01:45,695
+indicates in percentage, or in other measurement units,
+
+32
+00:01:45,695 --> 00:01:49,819
+at what point an operation is.
+
+33
+00:01:49,819 --> 00:01:54,717
+Today we'll use an extension of the Chrome Web Store,
+
+34
+00:01:54,717 --> 00:01:56,280
+called ChromeVox.
+
+35
+00:01:56,280 --> 00:02:00,422
+It's a vocal synthesizer, and it's very used
+
+36
+00:02:00,422 --> 00:02:06,372
+by users with low or no visual capabilities.
+
+37
+00:02:06,372 --> 00:02:08,430
+This text-to-speech instrument (TTS),
+
+38
+00:02:08,430 --> 00:02:13,210
+is able to analyze in every single detail the web page
+
+39
+00:02:13,210 --> 00:02:15,458
+and give details to the user,
+
+40
+00:02:15,458 --> 00:02:18,663
+to give the most immersive
+
+41
+00:02:18,663 --> 00:02:20,299
+experience possible.
+
+42
+00:02:20,299 --> 00:02:23,113
+So, in our homepage,
+
+43
+00:02:23,113 --> 00:02:27,423
+the ChromeVox will give us as many informations as possible
+
+44
+00:02:27,423 --> 00:02:28,739
+about what we're about to do.
+
+45
+00:02:28,739 --> 00:02:31,657
+For example, if we select the search bar,
+
+46
+00:02:30,714 --> 00:02:32,627
+TTS: list box, with one entry: tab.
+
+47
+00:02:32,627 --> 00:02:39,078
+the ChromeVox will tell us everything
+
+48
+00:02:39,078 --> 00:02:43,281
+we digit in the search bar.
+
+49
+00:02:43,281 --> 00:02:48,000
+When we paste a physical address, or a web address
+
+50
+00:02:48,000 --> 00:02:51,722
+or whatever we might need,
+
+51
+00:02:51,722 --> 00:02:55,970
+TTS: list box, with two entries: tab,
+
+52
+00:02:55,970 --> 00:03:09,555
+TTS: file://C:/users/leonardo/dropbox/compiti/tps/html/sites/WCAG/index.html
+
+53
+00:03:09,555 --> 00:03:12,312
+TTS: prova WCAG 2.1
+
+54
+00:03:12,312 --> 00:03:18,408
+So, the ChromeVox will tell us exactly what we're doing
+
+55
+00:03:18,408 --> 00:03:20,429
+in every moment.
+
+56
+00:03:20,429 --> 00:03:24,233
+It read the complete physical address,
+
+57
+00:03:24,233 --> 00:03:28,872
+and, we can see that, first thing first, the ChromeVox will read
+
+58
+00:03:28,872 --> 00:03:33,665
+the title of the tab, which is "prova WCAG 2.1".
+
+59
+00:03:33,665 --> 00:03:39,248
+So, the ChromeVox could read everything that we have on the screen.
+
+60
+00:03:39,248 --> 00:03:42,558
+For example, if we hover over our first status message
+
+61
+00:03:42,558 --> 00:03:47,036
+TTS: questo è un messaggio di stato. Intestazione 2.
+
+62
+00:03:47,036 --> 00:03:52,552
+So, it'll say "this is a status message", which is the text on the page,
+
+63
+00:03:52,552 --> 00:03:59,469
+and "header 2", so the type of text we're reading,
+
+64
+00:03:59,469 --> 00:04:01,155
+which is a header 2.
+
+65
+00:04:01,155 --> 00:04:02,780
+If we scroll down
+
+66
+00:04:02,780 --> 00:04:07,882
+TTS: questo è un messaggio di avviso/errore. Intestazione 2.
+
+67
+00:04:07,882 --> 00:04:10,757
+and, as you can see in the code, it corresponds,
+
+68
+00:04:10,757 --> 00:04:16,798
+because the text in the tab is this, respectively,
+
+69
+00:04:16,798 --> 00:04:23,604
+and they are headers 2, so, as a matter of fact, the ChromeVox read the code of the tab.
+
+70
+00:04:23,604 --> 00:04:27,747
+If, instead, we go to the...progress..bar,
+
+71
+00:04:24,460 --> 00:04:34,613
+TTS: 27. Scheda prova WCAG 2.1 finestra. 27%. Questa è una barra di avanzamento.
+
+72
+00:04:34,613 --> 00:04:43,557
+it'll read the text inside the "progress" tag, which indicates a progress bar.
+
+73
+00:04:43,557 --> 00:04:51,156
+So, I decided to assign to the progress bar a text: 27%. This is a progress bar.
+
+74
+00:04:51,156 --> 00:04:57,788
+So, the ChromeVox recognizes a progress bar, and reads the embedded text,
+
+75
+00:04:57,788 --> 00:05:01,397
+but this messages don't have a particular importance yet,
+
+76
+00:05:01,397 --> 00:05:04,687
+as they haven't been assigned a particular class.
+
